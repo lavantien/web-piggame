@@ -29,6 +29,9 @@ init()
 
 buttonRoll.addEventListener('click', () => {
 	dice.textContent = Math.floor(Math.random() * 6) + 1
+	// TODO: implement roll logic
 })
-buttonHold.addEventListener('click', () => { })
+buttonHold.addEventListener('click', () => {
+	// TODO: implement hold logic
+})
 buttonNew.addEventListener('click', init)
