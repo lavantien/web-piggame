@@ -14,6 +14,28 @@
 	width: 100vw;
 	background-color: color-mix(in srgb, red 75%, white);
 
+	.announcement {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 64px;
+		margin: 20px;
+		color: color-mix(in srgb, white 75%, black);
+	}
+
+	.round {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 400px;
+		height: 120px;
+		margin: 20px;
+		border-radius: 60px;
+		border: none;
+		background-color: color-mix(in srgb, black 75%, red);
+		color: white;
+	}
+
 	.dice {
 		display: flex;
 		justify-content: center;
@@ -24,12 +46,14 @@
 		background-color: rgba(255, 255, 255, 0.9);
 		color: brown;
 	}
+
 	.wrapper-main {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: row;
-		width: 50%;
+		width: 85%;
+		margin: 20px;
 
 		.area {
 			display: flex;
@@ -44,12 +68,15 @@
 				align-items: center;
 				flex: 33%;
 			}
+
 			.name {
 				color: black;
 			}
+
 			.score {
 				color: brown;
 			}
+
 			.current {
 				margin: 20px;
 				width: calc(100% - 40px);
@@ -57,13 +84,16 @@
 				color: white;
 			}
 		}
+
 		.active {
 			background-color: color-mix(in srgb, red 25%, white);
 		}
+
 		.inactive {
 			background-color: color-mix(in srgb, red 50%, white);
 		}
 	}
+
 	.button {
 		display: flex;
 		justify-content: center;
